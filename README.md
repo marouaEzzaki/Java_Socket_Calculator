@@ -16,11 +16,11 @@ The Server processes each request and returns the result to the Client. This set
 
 1. **Clone the repository**: 
    ```bash
-   git clone https://github.com/yourusername/Java_Socket_Calculator.git
+   git clone https://github.com/marouaEzzaki/Java_Socket_Calculator.git
    cd Java_Socket_Calculator
 2. **Change IP for Network Testing (Optional)**:
-In the client code, the localhost IP can be changed to the server's IP to test across different computers.
-Update the line in SocketCliente as follows:
+If you want to test the connection between two different computers, you can change the IP in the client code to the server's IP. If you're testing on the same computer, you can leave it as `localhost`.
+Update the line in SocketCliente as follows to test:
 ```bash
 public static final String IP_SERVER = "other-computer-ip";
 ```

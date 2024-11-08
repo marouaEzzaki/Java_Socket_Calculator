@@ -29,19 +29,19 @@ public static final String IP_SERVER = "other-computer-ip";
 
 1. **Start the Server**:
    - Navigate to the server project directory.
-   - Compile and run `SocketServidor`:
+   - Compile and run `SocketServer`:
      ```bash
-     javac SocketServidor.java
-     java SocketServidor
+     javac SocketServer.java
+     java SocketServer
      ```
 
 2. **Start the Client**:
    - Open a new terminal window.
    - Navigate to the client project directory.
-   - Compile and run `SocketCliente`:
+   - Compile and run `SocketClient`:
      ```bash
-     javac SocketCliente.java
-     java SocketCliente
+     javac SocketClient.java
+     java SocketClient
      ```
 
 ## Usage
